@@ -1,0 +1,39 @@
+# Datasets -- large, regeneratable (data_train/) or third-party released data
+# not ours to redistribute (EDUS_inferdata/, ~5.5GB+)
+data_train/
+EDUS_inferdata/
+
+# Trained model checkpoints (.pt files, tens of MB each)
+checkpoint/
+
+# Rendered preview/validation images generated during training and evaluation --
+# except renders/validation/, kept for the README's example renders
+renders/*
+!renders/validation/
+!renders/validation/*
+
+# Vendored third-party code (clone separately, don't commit)
+third_party/
+ref/
+
+# Reference materials (paper PDF/extracted text, not project code)
+EDUS_arxiv.pdf
+edus_text.txt
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Claude Code session-local state
+.claude/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
