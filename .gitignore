@@ -33,6 +33,7 @@ env/
 
 # Claude Code session-local state
 .claude/
+.vscode/
 
 # OS/editor noise
 .DS_Store
